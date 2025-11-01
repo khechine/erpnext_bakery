@@ -1,0 +1,50 @@
+[
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Pains",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  },
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Viennoiseries",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  },
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Pâtisseries",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  },
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Gâteaux et Entremets",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  },
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Biscuits et Snacks",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  },
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Ingrédients",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  },
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Emballages",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  },
+  {
+    "doctype": "Item Group",
+    "item_group_name": "Boissons et Suppléments",
+    "parent_item_group": "All Item Groups",
+    "is_group": 0
+  }
+]

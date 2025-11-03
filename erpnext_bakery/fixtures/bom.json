@@ -1,6 +1,8 @@
 [
   {
     "doctype": "BOM",
+    "name": "BOM-CROISSANT_BEURRE",
+    "name": "BOM-CROISSANT_BEURRE",
     "bom_name": "BOM-CROISSANT_BEURRE",
     "item": "CROISSANT_BEURRE",
     "quantity": 1,
@@ -42,6 +44,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-BAGUETTE_TRADITION",
     "bom_name": "BOM-BAGUETTE_TRADITION",
     "item": "BAGUETTE_TRADITION",
     "quantity": 1,
@@ -73,6 +76,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PAIN_CAMPAGNE",
     "bom_name": "BOM-PAIN_CAMPAGNE",
     "item": "PAIN_CAMPAGNE",
     "quantity": 1,
@@ -104,6 +108,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-CROISSANT_AMANDE",
     "bom_name": "BOM-CROISSANT_AMANDE",
     "item": "CROISSANT_AMANDE",
     "quantity": 1,
@@ -155,6 +160,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PAIN_AUX_RAISINS",
     "bom_name": "BOM-PAIN_AUX_RAISINS",
     "item": "PAIN_AUX_RAISINS",
     "quantity": 1,
@@ -206,6 +212,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-TARTELETTE_FRUITS",
     "bom_name": "BOM-TARTELETTE_FRUITS",
     "item": "TARTELETTE_FRUITS",
     "quantity": 1,
@@ -247,6 +254,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-ECLAIR_CHOCOLAT",
     "bom_name": "BOM-ECLAIR_CHOCOLAT",
     "item": "ECLAIR_CHOCOLAT",
     "quantity": 1,
@@ -298,6 +306,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PARIS_BREST",
     "bom_name": "BOM-PARIS_BREST",
     "item": "PARIS_BREST",
     "quantity": 1,
@@ -349,6 +358,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-TARTE_TATIN",
     "bom_name": "BOM-TARTE_TATIN",
     "item": "TARTE_TATIN",
     "quantity": 1,
@@ -390,6 +400,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-GATEAU_FRAISIER",
     "bom_name": "BOM-GATEAU_FRAISIER",
     "item": "GATEAU_FRAISIER",
     "quantity": 1,
@@ -451,6 +462,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-GATEAU_CHOCOLAT",
     "bom_name": "BOM-GATEAU_CHOCOLAT",
     "item": "GATEAU_CHOCOLAT",
     "quantity": 1,
@@ -502,6 +514,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-MOUSSE_CHOCOLAT",
     "bom_name": "BOM-MOUSSE_CHOCOLAT",
     "item": "MOUSSE_CHOCOLAT",
     "quantity": 1,
@@ -538,6 +551,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-COOKIES_PEPIES",
     "bom_name": "BOM-COOKIES_PEPIES",
     "item": "COOKIES_PEPIES",
     "quantity": 1,
@@ -579,6 +593,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-SABLE_CHOCOLAT",
     "bom_name": "BOM-SABLE_CHOCOLAT",
     "item": "SABLE_CHOCOLAT",
     "quantity": 1,
@@ -625,6 +640,7 @@
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PALMIERS",
     "bom_name": "BOM-PALMIERS",
     "item": "PALMIERS",
     "quantity": 1,

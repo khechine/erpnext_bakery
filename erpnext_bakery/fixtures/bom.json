@@ -1,6 +1,7 @@
 [
   {
     "doctype": "BOM",
+    "name": "BOM-CROISSANT_BEURRE",
     "bom_name": "BOM-CROISSANT_BEURRE",
     "item": "CROISSANT_BEURRE",
     "quantity": 1,
@@ -38,11 +39,11 @@
         "qty": 0.1,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-CROISSANT_BEURRE"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-BAGUETTE_TRADITION",
     "bom_name": "BOM-BAGUETTE_TRADITION",
     "item": "BAGUETTE_TRADITION",
     "quantity": 1,
@@ -70,11 +71,11 @@
         "qty": 0.05,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-BAGUETTE_TRADITION"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PAIN_CAMPAGNE",
     "bom_name": "BOM-PAIN_CAMPAGNE",
     "item": "PAIN_CAMPAGNE",
     "quantity": 1,
@@ -99,120 +100,16 @@
       },
       {
         "item_code": "LAIT_ENTIER",
-        "qty": 0.08,
+        "qty": 0.06,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-PAIN_CAMPAGNE"
+    ]
   },
   {
     "doctype": "BOM",
-    "bom_name": "BOM-CROISSANT_AMANDE",
-    "item": "CROISSANT_AMANDE",
-    "quantity": 1,
-    "uom": "Unit",
-    "is_active": 1,
-    "is_default": 1,
-    "items": [
-      {
-        "item_code": "FARINE_TYPE_55",
-        "qty": 0.12,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "BEURRE_DOUX",
-        "qty": 0.025,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "AMANDES_EFFILEES",
-        "qty": 0.03,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "SUCRE_SEMOULE",
-        "qty": 0.015,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "SEL_FIN",
-        "qty": 0.001,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "LEVURE_BOULANGERE",
-        "qty": 0.006,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "LAIT_ENTIER",
-        "qty": 0.025,
-        "uom": "Unit"
-      },
-      {
-        "item_code": "OEUFS",
-        "qty": 0.12,
-        "uom": "Unit"
-      }
-    ],
-    "name": "BOM-CROISSANT_AMANDE"
-  },
-  {
-    "doctype": "BOM",
-    "bom_name": "BOM-PAIN_AUX_RAISINS",
-    "item": "PAIN_AUX_RAISINS",
-    "quantity": 1,
-    "uom": "Unit",
-    "is_active": 1,
-    "is_default": 1,
-    "items": [
-      {
-        "item_code": "FARINE_TYPE_55",
-        "qty": 0.11,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "BEURRE_DOUX",
-        "qty": 0.022,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "RAISINS_SECS",
-        "qty": 0.04,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "SUCRE_SEMOULE",
-        "qty": 0.02,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "SEL_FIN",
-        "qty": 0.001,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "LEVURE_BOULANGERE",
-        "qty": 0.0055,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "LAIT_ENTIER",
-        "qty": 0.022,
-        "uom": "Unit"
-      },
-      {
-        "item_code": "OEUFS",
-        "qty": 0.11,
-        "uom": "Unit"
-      }
-    ],
-    "name": "BOM-PAIN_AUX_RAISINS"
-  },
-  {
-    "doctype": "BOM",
-    "bom_name": "BOM-TARTELETTE_FRUITS",
-    "item": "TARTELETTE_FRUITS",
+    "name": "BOM-CROISSANT_CHOCOLAT",
+    "bom_name": "BOM-CROISSANT_CHOCOLAT",
+    "item": "CROISSANT_CHOCOLAT",
     "quantity": 1,
     "uom": "Unit",
     "is_active": 1,
@@ -225,34 +122,86 @@
       },
       {
         "item_code": "BEURRE_DOUX",
-        "qty": 0.05,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "SUCRE_SEMOULE",
         "qty": 0.02,
         "uom": "Kg"
       },
       {
-        "item_code": "OEUFS",
-        "qty": 0.2,
+        "item_code": "CHOCOLAT_NOIR",
+        "qty": 0.02,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "SEL_FIN",
+        "qty": 0.001,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "LEVURE_BOULANGERE",
+        "qty": 0.005,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "LAIT_ENTIER",
+        "qty": 0.02,
         "uom": "Unit"
       },
       {
-        "item_code": "FRUITS_FRAIS_MELANGES",
+        "item_code": "OEUFS",
         "qty": 0.1,
-        "uom": "Kg"
-      },
-      {
-        "item_code": "CREME_FRAICHE",
-        "qty": 0.03,
-        "uom": "Kg"
+        "uom": "Unit"
       }
-    ],
-    "name": "BOM-TARTELETTE_FRUITS"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PAIN_AU_CHOCOLAT",
+    "bom_name": "BOM-PAIN_AU_CHOCOLAT",
+    "item": "PAIN_AU_CHOCOLAT",
+    "quantity": 1,
+    "uom": "Unit",
+    "is_active": 1,
+    "is_default": 1,
+    "items": [
+      {
+        "item_code": "FARINE_TYPE_55",
+        "qty": 0.09,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "BEURRE_DOUX",
+        "qty": 0.02,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "CHOCOLAT_NOIR",
+        "qty": 0.02,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "SEL_FIN",
+        "qty": 0.001,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "LEVURE_BOULANGERE",
+        "qty": 0.005,
+        "uom": "Kg"
+      },
+      {
+        "item_code": "LAIT_ENTIER",
+        "qty": 0.02,
+        "uom": "Unit"
+      },
+      {
+        "item_code": "OEUFS",
+        "qty": 0.1,
+        "uom": "Unit"
+      }
+    ]
+  },
+  {
+    "doctype": "BOM",
+    "name": "BOM-ECLAIR_CHOCOLAT",
     "bom_name": "BOM-ECLAIR_CHOCOLAT",
     "item": "ECLAIR_CHOCOLAT",
     "quantity": 1,
@@ -267,7 +216,7 @@
       },
       {
         "item_code": "BEURRE_DOUX",
-        "qty": 0.04,
+        "qty": 0.06,
         "uom": "Kg"
       },
       {
@@ -300,11 +249,11 @@
         "qty": 0.001,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-ECLAIR_CHOCOLAT"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PARIS_BREST",
     "bom_name": "BOM-PARIS_BREST",
     "item": "PARIS_BREST",
     "quantity": 1,
@@ -352,11 +301,11 @@
         "qty": 0.002,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-PARIS_BREST"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-TARTE_TATIN",
     "bom_name": "BOM-TARTE_TATIN",
     "item": "TARTE_TATIN",
     "quantity": 1,
@@ -394,11 +343,11 @@
         "qty": 0.04,
         "uom": "Kg"
       }
-    ],
-    "name": "BOM-TARTE_TATIN"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-GATEAU_FRAISIER",
     "bom_name": "BOM-GATEAU_FRAISIER",
     "item": "GATEAU_FRAISIER",
     "quantity": 1,
@@ -456,11 +405,11 @@
         "qty": 0.005,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-GATEAU_FRAISIER"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-GATEAU_CHOCOLAT",
     "bom_name": "BOM-GATEAU_CHOCOLAT",
     "item": "GATEAU_CHOCOLAT",
     "quantity": 1,
@@ -508,11 +457,11 @@
         "qty": 0.003,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-GATEAU_CHOCOLAT"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-MOUSSE_CHOCOLAT",
     "bom_name": "BOM-MOUSSE_CHOCOLAT",
     "item": "MOUSSE_CHOCOLAT",
     "quantity": 1,
@@ -545,11 +494,11 @@
         "qty": 0.002,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-MOUSSE_CHOCOLAT"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-COOKIES_PEPIES",
     "bom_name": "BOM-COOKIES_PEPIES",
     "item": "COOKIES_PEPIES",
     "quantity": 1,
@@ -587,11 +536,11 @@
         "qty": 0.001,
         "uom": "Kg"
       }
-    ],
-    "name": "BOM-COOKIES_PEPIES"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-SABLE_CHOCOLAT",
     "bom_name": "BOM-SABLE_CHOCOLAT",
     "item": "SABLE_CHOCOLAT",
     "quantity": 1,
@@ -634,11 +583,11 @@
         "qty": 0.001,
         "uom": "Unit"
       }
-    ],
-    "name": "BOM-SABLE_CHOCOLAT"
+    ]
   },
   {
     "doctype": "BOM",
+    "name": "BOM-PALMIERS",
     "bom_name": "BOM-PALMIERS",
     "item": "PALMIERS",
     "quantity": 1,
@@ -666,7 +615,6 @@
         "qty": 0.001,
         "uom": "Kg"
       }
-    ],
-    "name": "BOM-PALMIERS"
+    ]
   }
 ]

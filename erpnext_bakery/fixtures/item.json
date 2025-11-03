@@ -17,8 +17,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.00
   },
   {
     "doctype": "Item",
@@ -28,8 +27,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 3.50
   },
   {
     "doctype": "Item",
@@ -39,8 +37,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.20
   },
   {
     "doctype": "Item",
@@ -50,8 +47,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.50
   },
   {
     "doctype": "Item",
@@ -61,8 +57,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 3.00
   },
   {
     "doctype": "Item",
@@ -72,8 +67,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.80,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.80
   },
   {
     "doctype": "Item",
@@ -83,8 +77,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 4.50
   },
   {
     "doctype": "Item",
@@ -94,8 +87,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 4.00
   },
   {
     "doctype": "Item",
@@ -105,8 +97,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 5.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 5.50
   },
   {
     "doctype": "Item",
@@ -116,8 +107,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 6.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 6.00
   },
   {
     "doctype": "Item",
@@ -127,8 +117,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 28.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 28.00
   },
   {
     "doctype": "Item",
@@ -138,8 +127,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 25.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 25.00
   },
   {
     "doctype": "Item",
@@ -149,8 +137,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 18.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 18.00
   },
   {
     "doctype": "Item",
@@ -160,8 +147,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.80,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 1.80
   },
   {
     "doctype": "Item",
@@ -171,8 +157,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.20
   },
   {
     "doctype": "Item",
@@ -182,8 +167,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 1.50
   },
   {
     "doctype": "Item",
@@ -193,8 +177,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.00
   },
   {
     "doctype": "Item",
@@ -204,8 +187,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 3.50
   },
   {
     "doctype": "Item",
@@ -215,8 +197,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.50
   },
   {
     "doctype": "Item",
@@ -226,8 +207,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 4.00
   },
   {
     "doctype": "Item",
@@ -237,8 +217,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 1.50
   },
   {
     "doctype": "Item",
@@ -248,8 +227,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.20
   },
   {
     "doctype": "Item",
@@ -259,8 +237,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 8.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 8.00
   },
   {
     "doctype": "Item",
@@ -270,8 +247,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 25.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 25.00
   },
   {
     "doctype": "Item",
@@ -281,8 +257,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 8.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 8.50
   },
   {
     "doctype": "Item",
@@ -292,8 +267,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 3.00
   },
   {
     "doctype": "Item",
@@ -303,8 +277,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 4.50
   },
   {
     "doctype": "Item",
@@ -314,8 +287,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 4.00
   },
   {
     "doctype": "Item",
@@ -325,8 +297,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 2.20
   },
   {
     "doctype": "Item",
@@ -336,8 +307,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 3.50
   },
   {
     "doctype": "Item",
@@ -347,8 +317,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 28.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 28.00
   },
   {
     "doctype": "Item",
@@ -358,8 +327,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 32.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 32.00
   },
   {
     "doctype": "Item",
@@ -369,8 +337,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 35.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 35.00
   },
   {
     "doctype": "Item",
@@ -380,8 +347,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 12.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 12.00
   },
   {
     "doctype": "Item",
@@ -391,8 +357,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 12.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 12.00
   },
   {
     "doctype": "Item",
@@ -402,8 +367,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 6.50,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 6.50
   },
   {
     "doctype": "Item",
@@ -413,8 +377,7 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.20,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 1.20
   },
   {
     "doctype": "Item",
@@ -424,8 +387,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 15.00,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 15.00
   },
   {
     "doctype": "Item",
@@ -435,8 +397,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 0.10,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 0.10
   },
   {
     "doctype": "Item",
@@ -446,8 +407,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.20,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 1.20
   },
   {
     "doctype": "Item",
@@ -457,8 +417,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 0.15,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 0.15
   },
   {
     "doctype": "Item",
@@ -468,7 +427,6 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 0.80,
-    "default_warehouse": "Stores - E"
+    "standard_rate": 0.80
   }
 ]

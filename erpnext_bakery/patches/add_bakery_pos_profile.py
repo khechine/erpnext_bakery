@@ -1,23 +1,27 @@
 import frappe
+from erpnext_bakery.install import get_default_company, get_default_warehouse
 
 def execute():
     """Add Bakery POS Profile if it doesn't exist"""
     if not frappe.db.exists("POS Profile", "Bakery POS"):
+        company = get_default_company()
+        warehouse = get_default_warehouse()
+
         pos_profile = frappe.get_doc({
             "doctype": "POS Profile",
             "pos_profile_name": "Bakery POS",
-            "company": "ERP",
-            "warehouse": "Stores - E",
+            "company": company,
+            "warehouse": warehouse,
             "customer": "Walk-in Customer",
             "country": "Tunisia",
             "currency": "TND",
-            "write_off_account": "Write Off - ERP",
-            "write_off_cost_center": "Main - ERP",
-            "account_for_change_amount": "Cash - ERP",
-            "cost_center": "Main - ERP",
-            "income_account": "Sales - ERP",
-            "expense_account": "Cost of Goods Sold - ERP",
-            "taxes_and_charges": "TVA 19% - ERP",
+            "write_off_account": f"Write Off - {company}",
+            "write_off_cost_center": f"Main - {company}",
+            "account_for_change_amount": f"Cash - {company}",
+            "cost_center": f"Main - {company}",
+            "income_account": f"Sales - {company}",
+            "expense_account": f"Cost of Goods Sold - {company}",
+            "taxes_and_charges": f"TVA 19% - {company}",
             "letter_head": "Standard",
             "print_format": "Standard"
         })

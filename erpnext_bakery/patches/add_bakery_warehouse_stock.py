@@ -1,8 +1,9 @@
 import frappe
+from erpnext_bakery.install import get_default_warehouse
 
 def execute():
     """Add initial stock to bakery warehouse"""
-    warehouse = "Stores - E"
+    warehouse = get_default_warehouse()
 
     # Only add stock if warehouse exists and is empty
     if frappe.db.exists("Warehouse", warehouse):
@@ -45,7 +46,7 @@ def execute():
                         "valuation_rate": rate,
                         "stock_value": qty * rate,
                         "stock_value_difference": qty * rate,
-                        "company": "ERP",
+                        "company": frappe.db.get_single_value("Global Defaults", "default_company"),
                         "fiscal_year": frappe.utils.getdate().year
                     }).insert(ignore_permissions=True)
 

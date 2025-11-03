@@ -1,10 +1,12 @@
 import frappe
+from erpnext_bakery.install import get_default_company, get_default_warehouse
 
 def execute():
-    """Move bakery products stock from Stores - E to Stores - ERP"""
+    """Move bakery products stock to default warehouse"""
 
+    company = get_default_company()
     source_warehouse = "Stores - E"
-    target_warehouse = "Stores - ERP"
+    target_warehouse = get_default_warehouse()
 
     # Ensure source warehouse exists
     if not frappe.db.exists("Warehouse", source_warehouse):
@@ -15,7 +17,7 @@ def execute():
         frappe.get_doc({
             "doctype": "Warehouse",
             "warehouse_name": target_warehouse,
-            "company": frappe.db.get_single_value("Global Defaults", "default_company"),
+            "company": company,
             "is_group": 0
         }).insert(ignore_permissions=True, ignore_if_duplicate=True)
         frappe.db.commit()
@@ -38,7 +40,7 @@ def execute():
     """.format(','.join(['%s'] * len(bakery_item_groups))), bakery_item_groups + [source_warehouse], as_dict=True)
 
     if not items_with_stock:
-        frappe.msgprint("No bakery items found with stock in Stores - E")
+        frappe.msgprint(f"No bakery items found with stock in {source_warehouse}")
         return
 
     # Create a stock entry for material transfer
@@ -49,7 +51,7 @@ def execute():
         "posting_time": frappe.utils.nowtime(),
         "from_warehouse": source_warehouse,
         "to_warehouse": target_warehouse,
-        "company": frappe.db.get_single_value("Global Defaults", "default_company")
+        "company": company
     })
 
     for item in items_with_stock:
@@ -65,11 +67,14 @@ def execute():
             "t_warehouse": target_warehouse
         })
 
-    try:
-        stock_entry.insert()
-        stock_entry.submit()
-        frappe.db.commit()
-        frappe.msgprint(f"Successfully moved stock for {len(items_with_stock)} bakery items from {source_warehouse} to {target_warehouse}")
-    except Exception as e:
-        frappe.db.rollback()
-        frappe.throw(f"Error transferring stock: {str(e)}")
+    if source_warehouse != target_warehouse:
+        try:
+            stock_entry.insert()
+            stock_entry.submit()
+            frappe.db.commit()
+            frappe.msgprint(f"Successfully moved stock for {len(items_with_stock)} bakery items from {source_warehouse} to {target_warehouse}")
+        except Exception as e:
+            frappe.db.rollback()
+            frappe.throw(f"Error transferring stock: {str(e)}")
+    else:
+        frappe.msgprint(f"No stock transfer needed - target warehouse {target_warehouse} is the same as source")

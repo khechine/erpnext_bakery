@@ -1,10 +1,10 @@
 {
   "erpnext_bakery": {
     "js/erpnext_bakery.min.js": [
-      "public/js/erpnext_bakery.js"
+      "erpnext_bakery/public/js/erpnext_bakery.js"
     ],
     "css/erpnext_bakery.min.css": [
-      "public/css/erpnext_bakery.css"
+      "erpnext_bakery/public/css/erpnext_bakery.css"
     ]
   }
 }

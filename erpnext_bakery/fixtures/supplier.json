@@ -1,47 +1,55 @@
 [
   {
+    "name": "Minoterie Tunisienne",
     "doctype": "Supplier",
     "supplier_name": "Minoterie Tunisienne",
     "supplier_type": "Company",
     "supplier_group": "Local"
   },
   {
+    "name": "Laiterie du Sahel",
     "doctype": "Supplier",
     "supplier_name": "Laiterie du Sahel",
     "supplier_type": "Company",
     "supplier_group": "Local"
   },
   {
+    "name": "Sucrerie Maghrébine",
     "doctype": "Supplier",
     "supplier_name": "Sucrerie Maghrébine",
     "supplier_type": "Company",
     "supplier_group": "Local"
   },
   {
+    "name": "Chocolaterie Carthage",
     "doctype": "Supplier",
     "supplier_name": "Chocolaterie Carthage",
     "supplier_type": "Company",
     "supplier_group": "Local"
   },
   {
+    "name": "Fruits Frais Tunisia",
     "doctype": "Supplier",
     "supplier_name": "Fruits Frais Tunisia",
     "supplier_type": "Company",
     "supplier_group": "Local"
   },
   {
+    "name": "Emballages Modernes",
     "doctype": "Supplier",
     "supplier_name": "Emballages Modernes",
     "supplier_type": "Company",
     "supplier_group": "Local"
   },
   {
+    "name": "Café Tunis",
     "doctype": "Supplier",
     "supplier_name": "Café Tunis",
     "supplier_type": "Company",
     "supplier_group": "Local"
   },
   {
+    "name": "Épices & Aromates",
     "doctype": "Supplier",
     "supplier_name": "Épices & Aromates",
     "supplier_type": "Company",

@@ -7,7 +7,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.20
+    "standard_rate": 1.2,
+    "name": "BAGUETTE_TRADITION"
   },
   {
     "doctype": "Item",
@@ -17,7 +18,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.00
+    "standard_rate": 2.0,
+    "name": "PAIN_COMPLET_500G"
   },
   {
     "doctype": "Item",
@@ -27,7 +29,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.50
+    "standard_rate": 3.5,
+    "name": "PAIN_CAMPAGNE"
   },
   {
     "doctype": "Item",
@@ -37,7 +40,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20
+    "standard_rate": 2.2,
+    "name": "CROISSANT_BEURRE"
   },
   {
     "doctype": "Item",
@@ -47,7 +51,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.50
+    "standard_rate": 2.5,
+    "name": "PAIN_CHOCOLAT"
   },
   {
     "doctype": "Item",
@@ -57,7 +62,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.00
+    "standard_rate": 3.0,
+    "name": "CROISSANT_AMANDE"
   },
   {
     "doctype": "Item",
@@ -67,7 +73,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.80
+    "standard_rate": 2.8,
+    "name": "PAIN_AUX_RAISINS"
   },
   {
     "doctype": "Item",
@@ -77,7 +84,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.50
+    "standard_rate": 4.5,
+    "name": "TARTELETTE_FRUITS"
   },
   {
     "doctype": "Item",
@@ -87,7 +95,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.00
+    "standard_rate": 4.0,
+    "name": "ECLAIR_CHOCOLAT"
   },
   {
     "doctype": "Item",
@@ -97,7 +106,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 5.50
+    "standard_rate": 5.5,
+    "name": "PARIS_BREST"
   },
   {
     "doctype": "Item",
@@ -107,7 +117,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 6.00
+    "standard_rate": 6.0,
+    "name": "TARTE_TATIN"
   },
   {
     "doctype": "Item",
@@ -117,7 +128,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 28.00
+    "standard_rate": 28.0,
+    "name": "GATEAU_FRAISIER"
   },
   {
     "doctype": "Item",
@@ -127,7 +139,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 25.00
+    "standard_rate": 25.0,
+    "name": "GATEAU_CHOCOLAT"
   },
   {
     "doctype": "Item",
@@ -137,7 +150,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 18.00
+    "standard_rate": 18.0,
+    "name": "MOUSSE_CHOCOLAT"
   },
   {
     "doctype": "Item",
@@ -147,7 +161,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.80
+    "standard_rate": 1.8,
+    "name": "COOKIES_PEPIES"
   },
   {
     "doctype": "Item",
@@ -157,7 +172,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20
+    "standard_rate": 2.2,
+    "name": "SABLE_CHOCOLAT"
   },
   {
     "doctype": "Item",
@@ -167,7 +183,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.50
+    "standard_rate": 1.5,
+    "name": "PALMIERS"
   },
   {
     "doctype": "Item",
@@ -177,7 +194,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.00
+    "standard_rate": 2.0,
+    "name": "CAFE_ESPRESSO"
   },
   {
     "doctype": "Item",
@@ -187,7 +205,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.50
+    "standard_rate": 3.5,
+    "name": "CAPPUCCINO"
   },
   {
     "doctype": "Item",
@@ -197,7 +216,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.50
+    "standard_rate": 2.5,
+    "name": "THE_VERT"
   },
   {
     "doctype": "Item",
@@ -207,7 +227,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.00
+    "standard_rate": 4.0,
+    "name": "CHOCOLAT_CHAUD"
   },
   {
     "doctype": "Item",
@@ -217,7 +238,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.50
+    "standard_rate": 1.5,
+    "name": "FARINE_TYPE_55"
   },
   {
     "doctype": "Item",
@@ -227,7 +249,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20
+    "standard_rate": 2.2,
+    "name": "FARINE_COMPLETE"
   },
   {
     "doctype": "Item",
@@ -237,7 +260,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 8.00
+    "standard_rate": 8.0,
+    "name": "LEVURE_BOULANGERE"
   },
   {
     "doctype": "Item",
@@ -247,7 +271,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 25.00
+    "standard_rate": 25.0,
+    "name": "BEURRE_DOUX"
   },
   {
     "doctype": "Item",
@@ -257,7 +282,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 8.50
+    "standard_rate": 8.5,
+    "name": "CREME_FRAICHE"
   },
   {
     "doctype": "Item",
@@ -267,7 +293,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.00
+    "standard_rate": 3.0,
+    "name": "SUCRE_SEMOULE"
   },
   {
     "doctype": "Item",
@@ -277,7 +304,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.50
+    "standard_rate": 4.5,
+    "name": "SUCRE_GLAÇAGE"
   },
   {
     "doctype": "Item",
@@ -287,7 +315,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 4.00
+    "standard_rate": 4.0,
+    "name": "OEUFS"
   },
   {
     "doctype": "Item",
@@ -297,7 +326,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 2.20
+    "standard_rate": 2.2,
+    "name": "LAIT_ENTIER"
   },
   {
     "doctype": "Item",
@@ -307,7 +337,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 3.50
+    "standard_rate": 3.5,
+    "name": "CREME_LIQUIDE"
   },
   {
     "doctype": "Item",
@@ -317,7 +348,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 28.00
+    "standard_rate": 28.0,
+    "name": "CHOCOLAT_NOIR"
   },
   {
     "doctype": "Item",
@@ -327,7 +359,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 32.00
+    "standard_rate": 32.0,
+    "name": "CHOCOLAT_BLANC"
   },
   {
     "doctype": "Item",
@@ -337,7 +370,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 35.00
+    "standard_rate": 35.0,
+    "name": "AMANDES_EFFILEES"
   },
   {
     "doctype": "Item",
@@ -347,7 +381,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 12.00
+    "standard_rate": 12.0,
+    "name": "RAISINS_SECS"
   },
   {
     "doctype": "Item",
@@ -357,7 +392,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 12.00
+    "standard_rate": 12.0,
+    "name": "FRUITS_FRAIS_MELANGES"
   },
   {
     "doctype": "Item",
@@ -367,7 +403,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 6.50
+    "standard_rate": 6.5,
+    "name": "POMMES"
   },
   {
     "doctype": "Item",
@@ -377,7 +414,8 @@
     "stock_uom": "Kg",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.20
+    "standard_rate": 1.2,
+    "name": "SEL_FIN"
   },
   {
     "doctype": "Item",
@@ -387,7 +425,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 15.00
+    "standard_rate": 15.0,
+    "name": "VANILLE"
   },
   {
     "doctype": "Item",
@@ -397,7 +436,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 0.10
+    "standard_rate": 0.1,
+    "name": "EMBALLAGE_PAPIER"
   },
   {
     "doctype": "Item",
@@ -407,7 +447,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 1.20
+    "standard_rate": 1.2,
+    "name": "BOITE_GATEAU_6"
   },
   {
     "doctype": "Item",
@@ -417,7 +458,8 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 0.15
+    "standard_rate": 0.15,
+    "name": "SACHET_VIENNOISERIE"
   },
   {
     "doctype": "Item",
@@ -427,6 +469,7 @@
     "stock_uom": "Unit",
     "is_stock_item": 1,
     "include_item_in_manufacturing": 1,
-    "standard_rate": 0.80
+    "standard_rate": 0.8,
+    "name": "BOITE_PATISSERIE"
   }
 ]

@@ -1,0 +1,53 @@
+/* ERPNext Bakery Custom CSS */
+
+/* Bakery-specific styling for POS */
+.bakery-pos-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.bakery-pos-item:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bakery-category-pains {
+    background-color: #fff3cd;
+    border-color: #ffeaa7;
+}
+
+.bakery-category-viennoiseries {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.bakery-category-patisseries {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* Custom styling for bakery forms */
+.bakery-item-group {
+    font-weight: bold;
+    color: #495057;
+}
+
+.bakery-bom-highlight {
+    background-color: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Responsive design for bakery POS */
+@media (max-width: 768px) {
+    .bakery-pos-item {
+        padding: 8px;
+        margin: 3px;
+    }
+}
